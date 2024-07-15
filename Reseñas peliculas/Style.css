@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s ease; /* Transición suave para cambios de color de fondo */
+}
+
+.navbar {
+    background-color: #007bff; /* Color de fondo para la barra de navegación */
+    color: #fff; /* Color de texto para la barra de navegación */
+}
+
+.navbar .navbar-brand {
+    color: #fff; /* Color de texto para el enlace de la marca en la barra de navegación */
+}
+
+.navbar .nav-link {
+    color: #fff; /* Color de texto para los enlaces en la barra de navegación */
+}
+
+.footer {
+    background-color: #007bff; /* Color de fondo para el pie de página */
+    color: #fff; 
+    text-align: center; 
+    padding: 20px;
+}
+
+
+/* Estilos del carrusel */
+.carousel-item img {
+    height: 400px; /* Altura específica para las imágenes dentro del carrusel */
+    object-fit: cover; /* Ajuste de la imagen para cubrir el contenedor del carrusel */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 250px; /* Reducción de altura para imágenes en carrusel en dispositivos móviles */
+    }
+}
+
+/* Estilos del modo oscuro */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+.dark-mode .btn-dark {
+    background-color: black;
+    color: white;
+}
+.dark-mode .row {
+    background-color: black;
+    color: black;
+}
+.card-body:hover{
+    background-color: rgb(99, 77, 77);
+    color: rgb(233, 233, 236);
+}
